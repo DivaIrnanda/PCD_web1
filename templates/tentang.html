@@ -7,7 +7,7 @@
 <div class="hero-section">
     <div class="container text-center">
         <h1><i class="bi bi-file-text"></i> Tentang Aplikasi</h1>
-        <p class="lead">Informasi pengembangan dan latar belakang sistem prediksi segmentasi banjir</p>
+        <p class="lead">Informasi lengkap tentang sistem prediksi segmentasi banjir</p>
     </div>
 </div>
 
@@ -16,173 +16,243 @@
     <div class="row">
         <div class="col-lg-10 mx-auto">
             
-            <!-- Latar Belakang -->
+            <!-- Tentang Sistem -->
             <div class="card">
                 <div class="card-header">
-                    <h4 class="mb-0"><i class="bi bi-lightbulb"></i> Latar Belakang</h4>
+                    <h4 class="mb-0"><i class="bi bi-info-circle"></i> Tentang Sistem</h4>
                 </div>
                 <div class="card-body">
-                    <p>Banjir merupakan salah satu bencana alam yang paling sering terjadi di Indonesia dan termasuk yang paling banyak menelan korban jiwa setiap tahunnya. Dampak banjir sangat luas, mulai dari kerusakan infrastruktur, gangguan aktivitas sosial-ekonomi, hingga hambatan dalam penanganan darurat.</p>
+                    <p class="lead">Sistem Prediksi Segmentasi Banjir adalah aplikasi web berbasis deep learning yang dirancang untuk membantu identifikasi dan pemetaan area genangan banjir secara cepat dan akurat.</p>
                     
-                    <p>Dalam konteks tersebut, pemetaan area banjir menjadi sangat penting untuk menyediakan informasi lokasi terdampak secara cepat dan akurat guna mendukung proses mitigasi dan respons bencana. Pemetaan banjir secara manual melalui survei lapangan membutuhkan waktu lama, dan tingginya volume data pengamatan sulit dilakukan secara cepat, khususnya ketika banjir terjadi secara mendadak.</p>
+                    <p>Banjir merupakan salah satu bencana alam yang paling sering terjadi di Indonesia. Pemetaan area banjir secara manual melalui survei lapangan membutuhkan waktu lama dan sulit dilakukan ketika banjir terjadi secara mendadak. Oleh karena itu, sistem ini dikembangkan untuk menyediakan solusi otomatis yang dapat memproses citra dan menghasilkan segmentasi area banjir dalam hitungan detik.</p>
                     
-                    <div class="alert alert-primary mt-3">
-                        <i class="bi bi-info-circle"></i> <strong>Solusi:</strong> Dibutuhkan metode otomatis yang mampu melakukan segmentasi area banjir secara akurat dan efisien menggunakan teknologi deep learning.
+                    <h5 class="mt-4"><i class="bi bi-star"></i> Keunggulan Sistem</h5>
+                    <div class="row mt-3">
+                        <div class="col-md-6 mb-3">
+                            <div class="border rounded p-3">
+                                <h6><i class="bi bi-lightning-charge text-warning"></i> Cepat dan Efisien</h6>
+                                <p class="text-muted small mb-0">Prediksi area banjir dalam 1-3 detik tanpa perlu survei lapangan yang memakan waktu</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="border rounded p-3">
+                                <h6><i class="bi bi-graph-up text-success"></i> Akurat</h6>
+                                <p class="text-muted small mb-0">Model U-Net dengan akurasi piksel 90.69% berdasarkan evaluasi dataset</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="border rounded p-3">
+                                <h6><i class="bi bi-clock-history text-primary"></i> Riwayat Tersimpan</h6>
+                                <p class="text-muted small mb-0">Semua prediksi otomatis tersimpan dan dapat diakses kapan saja</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="border rounded p-3">
+                                <h6><i class="bi bi-shield-check text-info"></i> Aman dan Private</h6>
+                                <p class="text-muted small mb-0">Sistem login memastikan data Anda hanya dapat diakses oleh Anda sendiri</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Tujuan Penelitian -->
+            <!-- Fitur Aplikasi -->
             <div class="card">
                 <div class="card-header">
-                    <h4 class="mb-0"><i class="bi bi-bullseye"></i> Tujuan Penelitian</h4>
-                </div>
-                <div class="card-body">
-                    <p>Penelitian ini dikembangkan dengan tujuan:</p>
-                    <ol>
-                        <li>Mengimplementasikan model U-Net standar dan Residual U-Net untuk segmentasi area banjir</li>
-                        <li>Mengevaluasi performa kedua model menggunakan metrik Accuracy, IoU, dan Dice Coefficient</li>
-                        <li>Membandingkan hasil segmentasi U-Net standar dan Residual U-Net untuk menentukan model dengan performa terbaik</li>
-                        <li>Mengembangkan aplikasi berbasis web yang mengimplementasikan model segmentasi banjir sebagai alat prediksi area banjir</li>
-                    </ol>
-                </div>
-            </div>
-
-            <!-- Hasil Penelitian -->
-            <div class="card">
-                <div class="card-header">
-                    <h4 class="mb-0"><i class="bi bi-graph-up-arrow"></i> Hasil Penelitian</h4>
-                </div>
-                <div class="card-body">
-                    <p>Berdasarkan hasil evaluasi yang dilakukan, perbandingan performa antara U-Net Standar dan Residual U-Net menunjukkan bahwa:</p>
-                    
-                    <div class="table-responsive mt-3">
-                        <table class="table table-bordered">
-                            <thead class="table-light">
-                                <tr>
-                                    <th>Metrik Evaluasi</th>
-                                    <th class="text-center">U-Net Standar</th>
-                                    <th class="text-center">Residual U-Net</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>IoU Score</td>
-                                    <td class="text-center">0.8652</td>
-                                    <td class="text-center"><strong>0.8743</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Dice Score</td>
-                                    <td class="text-center">0.9573</td>
-                                    <td class="text-center"><strong>0.9628</strong></td>
-                                </tr>
-                                <tr>
-                                    <td>Pixel Accuracy</td>
-                                    <td class="text-center">0.9069</td>
-                                    <td class="text-center"><strong>0.9111</strong></td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-
-                    <p class="mt-3">Residual U-Net memberikan hasil yang lebih unggul pada seluruh metrik evaluasi, menunjukkan bahwa penerapan residual connection pada arsitektur U-Net mampu meningkatkan kualitas segmentasi area banjir pada dataset yang digunakan dalam penelitian ini.</p>
-                    
-                    <div class="alert alert-success">
-                        <i class="bi bi-check-circle"></i> <strong>Kesimpulan:</strong> Model U-Net Standar yang diimplementasikan dalam aplikasi ini telah terbukti efektif dengan akurasi piksel mencapai 90.69% dan mampu memberikan prediksi yang konsisten.
-                    </div>
-                </div>
-            </div>
-
-            <!-- Teknologi -->
-            <div class="card">
-                <div class="card-header">
-                    <h4 class="mb-0"><i class="bi bi-stack"></i> Teknologi yang Digunakan</h4>
+                    <h4 class="mb-0"><i class="bi bi-gear"></i> Fitur Aplikasi</h4>
                 </div>
                 <div class="card-body">
                     <div class="row">
                         <div class="col-md-6 mb-3">
-                            <h6><i class="bi bi-server text-primary"></i> Backend</h6>
-                            <ul>
-                                <li><strong>Flask:</strong> Framework web Python untuk REST API</li>
-                                <li><strong>TensorFlow/Keras:</strong> Framework deep learning untuk model U-Net</li>
-                                <li><strong>OpenCV:</strong> Library untuk pemrosesan citra</li>
-                                <li><strong>NumPy:</strong> Komputasi numerik dan array processing</li>
+                            <h6><i class="bi bi-cpu text-primary"></i> Prediksi Segmentasi</h6>
+                            <ul class="text-muted">
+                                <li>Upload citra via drag & drop atau browse</li>
+                                <li>Preprocessing otomatis (resize & normalisasi)</li>
+                                <li>Prediksi menggunakan model U-Net</li>
+                                <li>Hasil dalam 3 format: asli, mask, overlay</li>
+                                <li>Proses cepat: 1-3 detik per citra</li>
                             </ul>
                         </div>
                         <div class="col-md-6 mb-3">
-                            <h6><i class="bi bi-palette text-primary"></i> Frontend</h6>
-                            <ul>
-                                <li><strong>Bootstrap 5:</strong> Framework CSS untuk interface responsif</li>
-                                <li><strong>Bootstrap Icons:</strong> Icon library</li>
-                                <li><strong>JavaScript:</strong> Interaktivitas dan AJAX requests</li>
-                                <li><strong>HTML5/CSS3:</strong> Struktur dan styling halaman</li>
+                            <h6><i class="bi bi-bar-chart text-primary"></i> Statistik Real-time</h6>
+                            <ul class="text-muted">
+                                <li>Persentase area banjir otomatis</li>
+                                <li>Jumlah piksel yang terdeteksi</li>
+                                <li>Total piksel citra</li>
+                                <li>Visualisasi dengan progress bar</li>
+                                <li>Data akurat dan mudah dipahami</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <h6><i class="bi bi-folder2-open text-primary"></i> Manajemen Riwayat</h6>
+                            <ul class="text-muted">
+                                <li>Semua prediksi tersimpan otomatis</li>
+                                <li>Lihat detail prediksi kapan saja</li>
+                                <li>Hapus prediksi yang tidak diperlukan</li>
+                                <li>Thumbnail preview untuk identifikasi cepat</li>
+                                <li>Sorting berdasarkan tanggal</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <h6><i class="bi bi-image text-primary"></i> Visualisasi Interaktif</h6>
+                            <ul class="text-muted">
+                                <li>Mask hitam-putih untuk clarity</li>
+                                <li>Overlay merah transparan pada asli</li>
+                                <li>Perbandingan side-by-side</li>
+                                <li>Display responsive di semua device</li>
+                                <li>Zoom dan inspect detail</li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Referensi -->
+            <!-- Model Information -->
             <div class="card">
                 <div class="card-header">
-                    <h4 class="mb-0"><i class="bi bi-journal-text"></i> Referensi</h4>
+                    <h4 class="mb-0"><i class="bi bi-cpu-fill"></i> Informasi Model</h4>
                 </div>
                 <div class="card-body">
-                    <p>Penelitian ini didasarkan pada studi-studi berikut:</p>
+                    <h6>Model U-Net Standar</h6>
+                    <p>Aplikasi ini menggunakan arsitektur U-Net, yang dirancang khusus untuk tugas segmentasi citra. Model ini memiliki struktur encoder-decoder yang efektif dalam menangkap fitur lokal dan global dari citra.</p>
                     
-                    <div class="border-start border-primary border-3 ps-3 mb-3">
-                        <p class="mb-1"><strong>Gumelar, N. (2020).</strong></p>
-                        <p class="text-muted mb-0">Integrating Flood Risk into Urban Planning in Indonesia. <em>Journal of Green Science and Technology, IV(1).</em></p>
-                    </div>
-
-                    <div class="border-start border-primary border-3 ps-3 mb-3">
-                        <p class="mb-1"><strong>Paul, S., & Ganju, S. (2021).</strong></p>
-                        <p class="text-muted mb-0">Flood Segmentation on Sentinel-1 SAR Imagery with Semi-Supervised Learning. Mencapai IoU 0.7654 menggunakan ensemble U-Net dan U-Net++.</p>
-                    </div>
-
-                    <div class="border-start border-primary border-3 ps-3 mb-3">
-                        <p class="mb-1"><strong>Liu, Y., Romanelli, M., Srivastava, N., & Toutin, R. (2024).</strong></p>
-                        <p class="text-muted mb-0">FloodScan: Flood Mapping Semantic Segmentation Using a U-Net Model with Feature Representations of Sentinel-1 and Sentinel-2 Data.</p>
-                    </div>
-
-                    <div class="border-start border-primary border-3 ps-3">
-                        <p class="mb-1"><strong>M. Ravanashree et al. (2025).</strong></p>
-                        <p class="text-muted mb-0">The Role of Google Earth Engine in Flood Disaster Management: A Review of Capabilities and Challenges. <em>Advances in Research, 26(2), 472-479.</em></p>
+                    <div class="row text-center mt-4">
+                        <div class="col-md-4">
+                            <div class="border rounded p-3">
+                                <h3 class="text-primary">0.8652</h3>
+                                <h6>IoU Score</h6>
+                                <p class="text-muted small mb-0">Intersection over Union - mengukur overlap prediksi dan ground truth</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="border rounded p-3">
+                                <h3 class="text-success">0.9573</h3>
+                                <h6>Dice Score</h6>
+                                <p class="text-muted small mb-0">Mengukur keseimbangan presisi dan recall model</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="border rounded p-3">
+                                <h3 class="text-info">90.69%</h3>
+                                <h6>Pixel Accuracy</h6>
+                                <p class="text-muted small mb-0">Persentase piksel yang diklasifikasikan dengan benar</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Pengembang -->
+            <!-- Cara Kerja -->
             <div class="card">
                 <div class="card-header">
-                    <h4 class="mb-0"><i class="bi bi-people"></i> Tim Pengembang</h4>
+                    <h4 class="mb-0"><i class="bi bi-arrow-repeat"></i> Cara Kerja Sistem</h4>
                 </div>
                 <div class="card-body">
-                    <p>Aplikasi ini dikembangkan sebagai bagian dari penelitian untuk mengimplementasikan model deep learning dalam pemetaan banjir. Sistem ini dirancang untuk membantu proses mitigasi dan respons bencana banjir dengan menyediakan informasi lokasi terdampak secara cepat dan akurat.</p>
+                    <ol class="mb-0">
+                        <li class="mb-3">
+                            <strong>Upload Citra:</strong> User mengunggah citra melalui interface web. File disimpan dengan nama unik untuk mencegah collision.
+                        </li>
+                        <li class="mb-3">
+                            <strong>Preprocessing:</strong> Citra di-resize ke 256×256 piksel dan dinormalisasi ke range 0-1. Format distandarisasi untuk input model.
+                        </li>
+                        <li class="mb-3">
+                            <strong>Prediksi Model:</strong> Model U-Net melakukan forward pass dan menghasilkan probabilitas untuk setiap piksel apakah termasuk area banjir atau tidak.
+                        </li>
+                        <li class="mb-3">
+                            <strong>Thresholding:</strong> Probabilitas di-threshold pada nilai 0.5. Piksel dengan probabilitas > 0.5 diklasifikasikan sebagai banjir.
+                        </li>
+                        <li class="mb-3">
+                            <strong>Visualisasi:</strong> Sistem membuat 3 jenis visualisasi: citra asli, mask hitam-putih, dan overlay dengan transparansi merah.
+                        </li>
+                        <li class="mb-3">
+                            <strong>Kalkulasi Statistik:</strong> Menghitung persentase area banjir, jumlah piksel banjir, dan total piksel.
+                        </li>
+                        <li class="mb-3">
+                            <strong>Penyimpanan:</strong> Semua file (original, mask, overlay) disimpan ke disk dan metadata disimpan ke database SQLite.
+                        </li>
+                        <li>
+                            <strong>Response:</strong> Hasil dikirim ke browser dalam format base64 untuk display real-time tanpa reload.
+                        </li>
+                    </ol>
+                </div>
+            </div>
+
+            <!-- Keamanan -->
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="mb-0"><i class="bi bi-shield-lock"></i> Keamanan dan Privasi</h4>
+                </div>
+                <div class="card-body">
+                    <p>Sistem ini dibangun dengan mempertimbangkan aspek keamanan dan privasi data pengguna:</p>
                     
-                    <div class="alert alert-info mt-3">
-                        <i class="bi bi-envelope"></i> Untuk pertanyaan atau feedback, silakan hubungi tim pengembang melalui sistem yang tersedia.
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <div class="d-flex">
+                                <div class="flex-shrink-0">
+                                    <i class="bi bi-check-circle-fill text-success" style="font-size: 1.5rem;"></i>
+                                </div>
+                                <div class="flex-grow-1 ms-3">
+                                    <h6>Data Privacy</h6>
+                                    <p class="text-muted mb-0">Setiap user hanya dapat mengakses data milik mereka sendiri. Data prediksi bersifat private dan tidak dapat diakses oleh user lain.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="d-flex">
+                                <div class="flex-shrink-0">
+                                    <i class="bi bi-check-circle-fill text-success" style="font-size: 1.5rem;"></i>
+                                </div>
+                                <div class="flex-grow-1 ms-3">
+                                    <h6>Secure Storage</h6>
+                                    <p class="text-muted mb-0">File citra dan hasil prediksi disimpan dengan nama unik dan terenkripsi untuk mencegah akses tidak sah.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="d-flex">
+                                <div class="flex-shrink-0">
+                                    <i class="bi bi-check-circle-fill text-success" style="font-size: 1.5rem;"></i>
+                                </div>
+                                <div class="flex-grow-1 ms-3">
+                                    <h6>File Upload Security</h6>
+                                    <p class="text-muted mb-0">Validasi format file, sanitize filename, dan batasan ukuran file maksimal untuk mencegah malicious upload.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="d-flex">
+                                <div class="flex-shrink-0">
+                                    <i class="bi bi-check-circle-fill text-success" style="font-size: 1.5rem;"></i>
+                                </div>
+                                <div class="flex-grow-1 ms-3">
+                                    <h6>Data Control</h6>
+                                    <p class="text-muted mb-0">User memiliki kontrol penuh terhadap data mereka dan dapat menghapus prediksi kapan saja.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Kontribusi -->
+            <!-- Batasan Sistem -->
             <div class="card">
                 <div class="card-header">
-                    <h4 class="mb-0"><i class="bi bi-heart"></i> Kontribusi Sistem</h4>
+                    <h4 class="mb-0"><i class="bi bi-exclamation-triangle"></i> Batasan Sistem</h4>
                 </div>
                 <div class="card-body">
-                    <p>Sistem prediksi segmentasi banjir ini diharapkan dapat memberikan kontribusi dalam:</p>
-                    <ul class="mb-0">
-                        <li>Mempercepat proses pemetaan area banjir untuk respons darurat</li>
-                        <li>Mengurangi ketergantungan pada survei lapangan manual yang memakan waktu</li>
-                        <li>Memberikan informasi visual yang mudah dipahami untuk pengambilan keputusan</li>
-                        <li>Mendukung upaya mitigasi dan manajemen risiko bencana banjir di Indonesia</li>
-                        <li>Menyediakan platform yang dapat dikembangkan lebih lanjut dengan teknologi yang lebih canggih</li>
+                    <div class="alert alert-warning">
+                        <i class="bi bi-info-circle"></i> <strong>Penting untuk Diketahui:</strong>
+                    </div>
+                    
+                    <ul>
+                        <li class="mb-2">Model memiliki akurasi 90.69%, namun tidak sempurna. Hasil prediksi sebaiknya digunakan sebagai <strong>alat bantu</strong> dan memerlukan validasi dari expert atau observasi lapangan untuk keputusan kritis.</li>
+                        <li class="mb-2">Kualitas prediksi sangat bergantung pada kualitas input citra. Gambar yang blur, terlalu gelap, atau memiliki banyak noise dapat menghasilkan prediksi yang kurang akurat.</li>
+                        <li class="mb-2">Model dilatih dengan dataset tertentu. Performa terbaik pada kondisi yang mirip dengan data training. Kondisi ekstrim atau atipical mungkin menghasilkan hasil yang kurang optimal.</li>
+                        <li class="mb-2">Ukuran file maksimal 16MB. Citra yang terlalu besar perlu dikompres terlebih dahulu.</li>
+                        <li>Sistem memerlukan koneksi internet yang stabil untuk upload dan prediksi.</li>
                     </ul>
                 </div>
             </div>
-
         </div>
     </div>
 </div>
